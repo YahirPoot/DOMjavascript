@@ -1,0 +1,28 @@
+body{
+    margin: 0 50px;
+    background-color: bisque;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+}
+
+#post div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opciones{
+    display: flex;
+    gap: 25px;
+}
+
+i{
+    cursor: pointer;
+}
+
+#msg{
+    color: red;
+}
